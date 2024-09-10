@@ -671,7 +671,7 @@ const styles = StyleSheet.create({
     right: 0,
     top: 0,
     elevation: 0,
-    zIndex: 999
+    zIndex: Platform.OS==='android'? 999:0
   },
   buttonContainer: {
     overflow: Platform.OS === "ios" ? "visible" : "hidden",
