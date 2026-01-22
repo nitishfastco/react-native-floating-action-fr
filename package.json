@@ -26,7 +26,6 @@
     "url": "https://github.com/santomegonzalo/react-native-floating-action/issues"
   },
   "homepage": "https://github.com/santomegonzalo/react-native-floating-action#readme",
-  "dependencies": {},
   "peerDependencies": {
     "prop-types": "*",
     "react": "*",
@@ -46,5 +45,6 @@
     "eslint-plugin-react": "7.13.0",
     "react": "^16.8.6",
     "react-native": "^0.59.8"
-  }
+  },
+  "packageManager": "yarn@3.6.4"
 }
